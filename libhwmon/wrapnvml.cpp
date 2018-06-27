@@ -187,6 +187,7 @@ int wrap_nvml_destroy(wrap_nvml_handle *nvmlh) {
 }
 
 
+
 int wrap_nvml_get_gpucount(wrap_nvml_handle *nvmlh, int *gpucount) {
   *gpucount = nvmlh->nvml_gpucount;
   return 0;
